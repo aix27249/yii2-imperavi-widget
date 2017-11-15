@@ -1,13 +1,13 @@
 <?php
 
-namespace vova07\imperavi\actions;
+namespace faenir\imperavi\actions;
 
 use Yii;
 use yii\base\Action;
 use yii\base\InvalidCallException;
 use yii\base\InvalidConfigException;
 use yii\web\Response;
-use vova07\imperavi\helpers\FileHelper;
+use faenir\imperavi\helpers\FileHelper;
 
 /**
  * Class GetAction
