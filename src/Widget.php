@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\imperavi;
+namespace faenir\imperavi;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -24,7 +24,7 @@ use yii\web\JsExpression;
  * @link http://imperavi.com/redactor
  * @license https://github.com/vova07/yii2-imperavi-widget/blob/master/LICENSE.md
  */
-class Widget extends BaseWidget
+class ImperaviWidget extends BaseWidget
 {
     /** Name of inline JavaScript package that is registered by the widget */
     const INLINE_JS_KEY = 'vova07/imperavi/';
