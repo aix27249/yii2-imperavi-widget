@@ -1,5 +1,5 @@
 {
-    "name": "vova07/yii2-imperavi-widget",
+    "name": "faenir/yii2-imperavi-widget",
     "description": "The imperavi redactor widget for Yii 2 framework.",
     "type": "yii2-extension",
     "keywords": [
@@ -37,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vova07\\imperavi\\": "src"
+            "faenir\\imperavi\\": "src"
         }
     }
 }
