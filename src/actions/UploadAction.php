@@ -1,8 +1,8 @@
 <?php
 
-namespace vova07\imperavi\actions;
+namespace faenir\imperavi\actions;
 
-use vova07\imperavi\Widget;
+use faenir\imperavi\ImperaviWidget;
 use yii\base\Action;
 use yii\base\DynamicModel;
 use yii\base\InvalidCallException;
@@ -26,7 +26,7 @@ use Yii;
  * {
  *     return [
  *         'upload-image' => [
- *             'class' => 'vova07\imperavi\actions\UploadAction',
+ *             'class' => 'faenir\imperavi\actions\UploadAction',
  *             'url' => 'http://my-site.com/statics/',
  *             'path' => '/var/www/my-site.com/web/statics',
  *             'validatorOptions' => [
@@ -35,7 +35,7 @@ use Yii;
  *             ]
  *         ],
  *         'file-upload' => [
- *             'class' => 'vova07\imperavi\actions\UploadAction',
+ *             'class' => 'faenir\imperavi\actions\UploadAction',
  *             'url' => 'http://my-site.com/statics/',
  *             'path' => '/var/www/my-site.com/web/statics',
  *             'uploadOnlyImage' => false,
