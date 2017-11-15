@@ -1,8 +1,8 @@
 <?php
 
-namespace vova07\imperavi\helpers;
+namespace faenir\imperavi\helpers;
 
-use vova07\imperavi\actions\GetAction;
+use faenir\imperavi\actions\GetAction;
 use yii\base\InvalidParamException;
 use yii\helpers\BaseFileHelper;
 use yii\helpers\StringHelper;
